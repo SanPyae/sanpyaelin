@@ -1,13 +1,26 @@
 {
+    // package name
     "name": "sanpyaelin/hello-world",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "The Imagine integration for the Yii framework",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "sanpyaelin"
+            "name": "San Pyae Lin",
+            "email": "sanpyaelin3@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {},
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+    },
+
+    // class autoloading specs
     "autoload": {
         "psr-4": {
             "HelloWorld": "src/"
