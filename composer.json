@@ -1,0 +1,14 @@
+{
+    "name": "sanpyaelin/hello-world",
+    "authors": [
+        {
+            "name": "sanpyaelin"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
