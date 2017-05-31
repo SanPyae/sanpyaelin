@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "sanpyaelin/hello-world",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "The Imagine integration for the Yii framework",
@@ -15,12 +13,10 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "~2.0.0",
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "HelloWorld": "src/"
